@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Back", "Back", "{C238501F-C0AE-495D-A28A-AB59CB6FBF27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A61136A4-6228-4D4F-97F9-3A5C866ECF96}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Leanwork.Rh.Domain", "Leanwork.Rh.Domain\Leanwork.Rh.Domain.csproj", "{5E78F88C-F109-4E95-A6B0-C867541E46F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leanwork.Rh.Infrastructure", "Leanwork.Rh.Infrastructure\Leanwork.Rh.Infrastructure.csproj", "{0F317234-CD4C-42E7-BA13-C8BA0C0BEDAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leanwork.Rh.Application", "Leanwork.Rh.Application\Leanwork.Rh.Application.csproj", "{E5C0F4A7-1421-45A1-8B13-275412E39328}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leanwork.Rh.CrossCutting", "Leanwork.Rh.CrossCutting\Leanwork.Rh.CrossCutting.csproj", "{45AD042C-C740-4B57-9F03-59C060CBC08F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leanwork.Rh.API", "Leanwork.Rh.API\Leanwork.Rh.API.csproj", "{667A3BE9-3BE7-4945-8E19-F48C4F129F5F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E78F88C-F109-4E95-A6B0-C867541E46F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E78F88C-F109-4E95-A6B0-C867541E46F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E78F88C-F109-4E95-A6B0-C867541E46F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E78F88C-F109-4E95-A6B0-C867541E46F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F317234-CD4C-42E7-BA13-C8BA0C0BEDAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F317234-CD4C-42E7-BA13-C8BA0C0BEDAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F317234-CD4C-42E7-BA13-C8BA0C0BEDAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F317234-CD4C-42E7-BA13-C8BA0C0BEDAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5C0F4A7-1421-45A1-8B13-275412E39328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5C0F4A7-1421-45A1-8B13-275412E39328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5C0F4A7-1421-45A1-8B13-275412E39328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5C0F4A7-1421-45A1-8B13-275412E39328}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45AD042C-C740-4B57-9F03-59C060CBC08F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45AD042C-C740-4B57-9F03-59C060CBC08F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45AD042C-C740-4B57-9F03-59C060CBC08F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45AD042C-C740-4B57-9F03-59C060CBC08F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{667A3BE9-3BE7-4945-8E19-F48C4F129F5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{667A3BE9-3BE7-4945-8E19-F48C4F129F5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{667A3BE9-3BE7-4945-8E19-F48C4F129F5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{667A3BE9-3BE7-4945-8E19-F48C4F129F5F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A61136A4-6228-4D4F-97F9-3A5C866ECF96} = {C238501F-C0AE-495D-A28A-AB59CB6FBF27}
+		{5E78F88C-F109-4E95-A6B0-C867541E46F2} = {A61136A4-6228-4D4F-97F9-3A5C866ECF96}
+		{0F317234-CD4C-42E7-BA13-C8BA0C0BEDAE} = {A61136A4-6228-4D4F-97F9-3A5C866ECF96}
+		{E5C0F4A7-1421-45A1-8B13-275412E39328} = {A61136A4-6228-4D4F-97F9-3A5C866ECF96}
+		{45AD042C-C740-4B57-9F03-59C060CBC08F} = {A61136A4-6228-4D4F-97F9-3A5C866ECF96}
+		{667A3BE9-3BE7-4945-8E19-F48C4F129F5F} = {A61136A4-6228-4D4F-97F9-3A5C866ECF96}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA7776F1-3767-4D45-946A-454EA0426828}
+	EndGlobalSection
+EndGlobal
